@@ -17,7 +17,9 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test-junit"))
-    implementation("io.ktor:ktor-server-netty:1.4.0")
+    val ktorVersion = "1.5.1"
+    implementation("io.ktor:ktor-server-cio:$ktorVersion")
+    implementation("io.ktor:ktor-serialization:$ktorVersion")
 }
 
 tasks.test {
