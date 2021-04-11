@@ -31,5 +31,5 @@ tasks.withType<KotlinCompile>() {
 }
 
 application {
-    mainClassName = "ServerKt"
+    mainClassName = "MainKt"
 }
