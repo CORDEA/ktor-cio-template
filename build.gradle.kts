@@ -20,6 +20,7 @@ dependencies {
     val ktorVersion = "1.5.1"
     implementation("io.ktor:ktor-server-cio:$ktorVersion")
     implementation("io.ktor:ktor-serialization:$ktorVersion")
+    implementation("ch.qos.logback:logback-classic:1.2.3")
 }
 
 tasks.test {
